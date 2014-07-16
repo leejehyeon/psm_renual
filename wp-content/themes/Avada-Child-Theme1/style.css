@@ -1,0 +1,209 @@
+/*
+Theme Name: Avada Child
+Description: Child theme for the Avada
+Author: Your name here
+Template: Avada
+*/
+
+@import url("../Avada/style.css");
+
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+/*#small-nav{
+  height:70px;
+}
+
+.avada-row {
+  margin: 0 auto;
+	max-width: 100%;
+}*/
+.avada-row {
+  margin: 0 auto;
+	max-width: 1200px;
+}
+#content {
+width: 100% !important;
+}/*
+
+#main {
+	padding:55px 0px 0px 0px!important;
+}
+
+
+
+.copyright{
+	margin:0 auto;
+}
+#footer {
+border-color: #282a2b !important;
+}
+
+#footer .avada-row {
+max-width: 960px !important;
+}
+.fusion-social-links-footer{
+	margin:0px !important;
+  	max-width: 980px !important;
+	padding:0px !important;
+	width:0px !important;
+}
+#content.full-width{
+	background-color:#363839;
+background-color:#ffffff;
+}
+
+.footer-area .fusion-columns {
+margin: 0px;
+}
+
+
+.col-lg-3 {
+margin:0 auto;
+padding:0px;
+width: 100%;
+}
+
+fusion-columns {
+margin: 0 auto;
+}*/
+
+.board-list{
+	float:left !important;
+	margin:0px;
+	padding-right:15px;
+}
+/*
+.latest-board-list{
+	color: #898989;
+	font: normal 12px 굴림;
+	height: 24px;
+	padding-left: 10px;
+	position: relative;
+	background: url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/listback.jpg') no-repeat left 0px;
+
+
+}
+
+.board-date{
+	color: #9b9b9b;
+	padding-left: 30px;
+	padding-right:20px;
+	position: absolute;
+	right: 0; top: 0;
+	background: url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/공지사항-백그라운드.jpg') no-repeat left 0px;
+}*/
+/*
+#content.full-width {
+	background-color:#363839;
+}
+
+#main.clearfix.width-100{
+	padding:0px !important;
+}*/
+.title-align{
+	padding:0px;
+	margin-bottom:5px;
+}
+
+.subtitle-align{
+	padding:0px;
+	margin-bottom:30px;
+}
+.descript-align{
+		padding:0px;
+		margin:0px;
+	  }
+.leftmenu-align{
+	  margin-left:25px;
+	}
+.list-align{
+  border:5px dotted #dedede;"
+	 font-size:13px;
+	 line-height:30px;
+  	list-style:none;
+	 margin-left:50px;
+	  padding:0px;
+	}
+.list-border{
+	  border:outset #dedede 5px;
+  		padding-left:5px;
+  		padding-right:5px;
+	}
+.list-casual{
+  background:url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/백그라운드.png') no-repeat left 0px top 5px;
+	  margin:5px;
+  		padding-left:25px;
+  		padding-right:5px;
+	}
+
+.footer-align{
+  		float:left;
+  		font-size:16px;
+	  margin:0px !important;
+	  padding:0px 25px 0px 0px;
+	}
+
+.col{
+  	margin:0 auto !important;
+	width:100% !important;
+  }
+
+.footer-widget-col{
+  width:860px;
+	  margin:0px auto;
+	}
+.columns columns-3{
+	max-width:860px !important;
+  }
+
+.footer-area{
+	border:0px solid #363839;
+	margin:0 auto !imporatant;
+	padding:25px 0px 20px 0px !important;
+}
+
+.sublist-border{
+	  border:outset #dedede 5px;
+  		padding-left:5px;
+  		padding-right:5px;
+	}
+
+.sublist-casual{
+  		background:url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/백그라운드2.png') no-repeat left 0px top 5px;
+		margin-left:30px;
+  		padding-left:30px;
+  		padding-right:5px;
+ 		
+		}
+.logo{
+	margin:0px !important;
+  }
+
+.normal_logo{
+	  height:70px !important;
+	}
+
+/*.header-wrapper{
+	  height:70px !important;
+  		padding:10px 0px 10px 0px
+}*/
+	
+
+.one_fourth {
+width: 32% !important;
+}
+.three_fourth{
+	  width:64% !important;
+	}
+.shortcode-tabs {
+margin-bottom: 0px !important;
+}
+.shortcode-tabs .tab_content {
+padding: 0px !important;
+overflow: hidden;
+}
+
+
+/*#nav ul, li{
+  background-color:rgb(255,120,0);
+}*/
