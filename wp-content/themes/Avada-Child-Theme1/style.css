@@ -207,3 +207,12 @@ overflow: hidden;
 /*#nav ul, li{
   background-color:rgb(255,120,0);
 }*/
+
+#aec-header{
+  visibility:hidden;
+}
+
+body,{
+line-height: 16px !important;
+  letter-spacing: -1px !important;
+}

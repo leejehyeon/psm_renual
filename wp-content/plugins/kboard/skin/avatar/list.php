@@ -44,11 +44,11 @@
 		<table>
 			<thead>
 				<tr>
-					<td class="kboard-list-uid"><img style="height:100%; width:99%"src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/게시판-헤더11.png"></td>
-					<td class="kboard-list-title"><img style="height:100%; width:99.5%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/게시판-헤더2.png"></td>
-					<td class="kboard-list-user"><img style="height:100%; width:99%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/게시판-헤더3.png"></td>
-					<td class="kboard-list-date"><img style="height:100%; width:99%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/게시판-헤더4.png"></td>
-					<td class="kboard-list-view"><img style="height:100%; width:99%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/게시판-헤더5.png"></td>
+					<td class="kboard-list-uid"><img style="height:100%; width:97%"src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/noti_index.png"></td>
+					<td class="kboard-list-title"><img style="height:100%; width:100%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/noti_title.png"></td>
+					<td class="kboard-list-user"><img style="height:100%; width:99%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/noti_author.png"></td>
+					<td class="kboard-list-date"><img style="height:100%; width:99%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/noti_author.png"></td>
+					<td class="kboard-list-view"><img style="height:100%; width:99%" src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/noti_count.png"></td>
 				</tr>
 			</thead>
 			<tbody>
@@ -58,7 +58,7 @@
 				
 				<?php while($content = $list->hasNextNotice()):?>
 				<tr class="kboard-list-notice">
-					<td class="kboard-list-uid"><?php echo __('<img src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/notice.png">', 'kboard')?></td>
+					<td class="kboard-list-uid"><?php echo __('<img src="http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/notice.png" width="50">', 'kboard')?></td>
 					<!--<td class="kboard-list-uid"><?php echo __('Notice', 'kboard')?></td>-->
 					<td class="kboard-list-title"><div class="cut_strings">
 							<a href="<?php echo $url->set('uid', $content->uid)->set('mod', 'document')->toString()?>"><?php echo $content->title?></a>

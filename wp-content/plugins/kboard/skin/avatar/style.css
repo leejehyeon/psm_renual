@@ -4,7 +4,7 @@
  */
 
 img { border: 0; }
-.cut_strings { width: auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; word-wrap: normal; }
+.cut_strings { width: auto; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; padding-left:20px; word-wrap: normal; }
 
 .kboard-avatar-button-small,
 .kboard-avatar-button-small:link,

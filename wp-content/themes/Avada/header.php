@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html xmlns="http<?php echo (is_ssl())? 's' : ''; ?>://www.w3.org/1999/xhtml" <?php language_attributes(); ?>>
 <head>
+  
+<link href='http://ancle.thecakehouse.co.kr/font/Human.css' rel='stylesheet' type='text/css' />
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
