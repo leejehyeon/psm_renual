@@ -67,6 +67,18 @@ fusion-columns {
 margin: 0 auto;
 }*/
 
+.main_img_one{
+  background-image:url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/06/main_l_01.jpg');
+  }
+.main_img_one:hover{
+  background-image:url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/main_l_01_01.jpg');
+	  }
+.main_img_two{
+	background-image:url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/06/main_l_02.jpg');
+  }
+.main_img_two:hover{
+		background-image:url('http://ancle.thecakehouse.co.kr/wp-content/uploads/2014/07/main_l_02_01.jpg');
+		  }
 .board-list{
 	float:left !important;
 	margin:0px;
@@ -215,4 +227,40 @@ overflow: hidden;
 body,{
 line-height: 16px !important;
   letter-spacing: -1px !important;
+}
+
+
+
+.self_zero{
+	margin:0px !iomportant;
+	  padding:0px;
+  }
+.title_color{
+	  color:#363636 !important;
+	}
+.subtitle_color{
+  color:#555555;
+  }
+	.titledescript_color{
+		color:#adadad;
+	  }
+	  .text_color{
+		  color:#7d7d7d;
+	}
+.tabletitle_color{
+	color:#354970;
+  }
+  
+  .title_margin{
+	  margin-bottom:5px;
+	}
+	.row_margin{
+		margin-bottom:30px;
+	  }
+	  .title_font{
+	  font-size:18px;
+	  }
+#wrapper{
+  width:1903px !important;
+  max-width:none !important;
 }

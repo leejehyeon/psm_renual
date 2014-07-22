@@ -40,7 +40,6 @@
 		</form>
 	</div>
 	<!-- 검색폼 끝 -->
-	
 	<!-- 리스트 시작 -->
 	<div class="kboard-list">
 		<table>
@@ -89,6 +88,7 @@
 	</div>
 	<!-- 리스트 끝 -->
 	
+	
 	<!-- 페이징 시작 -->
 	<div class="kboard-pagination">
 		<ul class="kboard-pagination-pages">
@@ -105,7 +105,7 @@
 	<!-- 버튼 끝 -->
 	<?php endif?>
 	
-	<div class="kboard-thumbnail-poweredby">
+	<!--<div class="kboard-thumbnail-poweredby">
 		<a href="http://www.cosmosfarm.com/products/kboard" onclick="window.open(this.href); return false;" title="<?php echo __('KBoard is the best community software available for WordPress', 'kboard')?>">Powered by KBoard</a>
-	</div>
+	</div>-->
 </div>

@@ -2393,8 +2393,8 @@ h5.toggle.active + .toggle-content{
 .two_third { width: 65.3332%; }
 /*.one_fourth { width: 31%; }
 .three_fourth { width: 65%; }*/
-.one_fourth { width: 22%; }
-.three_fourth { width: 74%; }
+/*.one_fourth { width: 22%; }*/
+/*.three_fourth { width: 74%; }*/
 #main .last { margin-right: 0 !important; }
 .clearboth{clear: both; display: block; font-size: 0px; height: 0px; line-height: 0; width: 100%; overflow:hidden; }
 
@@ -6190,10 +6190,10 @@ html[xmlns] .flexslider .slides {display: block;}
 .no-rgba .flex-caption{background-color:#000;}
 
 .main-flex{margin-bottom:0;}
-@media screen and (max-width: 860px) {
+/*@media screen and (max-width: 860px) {
   .flex-direction-nav .flex-prev {opacity: 1; left: 0;}
   .flex-direction-nav .flex-next {opacity: 1; right: 0;}
-}
+}*/
 
 .wp-caption{}
 .wp-caption-text{}
@@ -6587,7 +6587,7 @@ html[xmlns] .flexslider .slides {display: block;}
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
 }
 .ei-slider ul{list-style:none;}
-@media screen and (max-width: 830px) {
+/*@media screen and (max-width: 830px) {
 	.ei-title{
 		position: absolute;
 		right: 0px;
@@ -6609,7 +6609,7 @@ html[xmlns] .flexslider .slides {display: block;}
 		font-size: 15px !important;
 		line-height: 30px !important;
 	}
-}
+}*/
 
 
 #nav-uber #megaMenu{
@@ -6762,7 +6762,7 @@ body #sidebar .button { padding-left: 15px !important; }
     float: none !important;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 13/10), only screen and (min-resolution: 120dpi) {
+/*@media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (-o-min-device-pixel-ratio: 13/10), only screen and (min-resolution: 120dpi) {
 	#jtwt .jtwt_tweet {
 		background-image: url(images/twitter-icon@2x.png) !important;
 		-webkit-background-size:31px 23px !important;
@@ -7180,7 +7180,7 @@ body #sidebar .button { padding-left: 15px !important; }
 		     -o-background-size:48px 29px;
 		        background-size:48px 29px;
 	}
-}
+}*/
 
 .video-background {
 	position: relative;
@@ -7262,7 +7262,7 @@ body #sidebar .button { padding-left: 15px !important; }
   width: 8.333333333333332% !important;
 }
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   #wrapper .col-sm-1, #wrapper .col-sm-2, #wrapper .col-sm-3, #wrapper .col-sm-4, #wrapper .col-sm-5, #wrapper .col-sm-6, #wrapper .col-sm-7, #wrapper .col-sm-8, #wrapper .col-sm-9, #wrapper .col-sm-10, #wrapper .col-sm-11, #wrapper .col-sm-12 {
     float: left !important;
   }
@@ -7302,8 +7302,8 @@ body #sidebar .button { padding-left: 15px !important; }
   #wrapper .col-sm-1 {
     width: 8.333333333333332% !important;
   }
-}
-@media (min-width: 992px) {
+}*/
+/*@media (min-width: 992px) {
   #wrapper .col-md-1, #wrapper .col-md-2, #wrapper .col-md-3, #wrapper .col-md-4, #wrapper .col-md-5, #wrapper .col-md-6, #wrapper .col-md-7, #wrapper .col-md-8, #wrapper .col-md-9, #wrapper .col-md-10, #wrapper .col-md-11, #wrapper .col-md-12 {
     float: left !important;
   }
@@ -7343,8 +7343,8 @@ body #sidebar .button { padding-left: 15px !important; }
   #wrapper .col-md-1 {
     width: 8.333333333333332% !important;
   }
-}
-@media (min-width: 1200px) {
+}*/
+/*@media (min-width: 1200px) {
   #wrapper .col-lg-1, #wrapper .col-lg-2, #wrapper .col-lg-3, #wrapper .col-lg-4, #wrapper .col-lg-5, #wrapper .col-lg-6, #wrapper .col-lg-7, #wrapper .col-lg-8, #wrapper .col-lg-9, #wrapper .col-lg-10, #wrapper .col-lg-11, #wrapper .col-lg-12 {
     float: left !important;
   }
@@ -7384,7 +7384,7 @@ body #sidebar .button { padding-left: 15px !important; }
   #wrapper .col-lg-1 {
     width: 8.333333333333332% !important;
   }
-}
+}*/
 
 /*---------------------------------------------------------------------------*/
 /*  Megamenu
@@ -7445,7 +7445,7 @@ body #sidebar .button { padding-left: 15px !important; }
     margin: 0;
 }
 
-@media (min-width: 940px) {
+/*@media (min-width: 940px) {
 	#wrapper .fusion-megamenu-wrapper.col-span-1 {
 		width: 235px;
 	}
@@ -7458,9 +7458,9 @@ body #sidebar .button { padding-left: 15px !important; }
 	#wrapper .fusion-megamenu-wrapper {
 		width: 940px;
 	}
-}
+}*/
 
-@media (min-width: 768px) {
+/*@media (min-width: 768px) {
   #wrapper .fusion-megamenu-wrapper {
     position: absolute;
     left: 0;
@@ -7562,7 +7562,7 @@ body #sidebar .button { padding-left: 15px !important; }
   #wrapper .fusion-megamenu-wrapper .fusion-megamenu-widgets-container.second-level-widget {
     padding: 0 34px;
   }
-}
+}*/
 
 
 /* v3.4 specific styles */

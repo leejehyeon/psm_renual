@@ -1,4 +1,4 @@
-<div id="kboard-thumbnail-latest">
+<!--<div id="kboard-thumbnail-latest">
 	<table>
 		<thead>
 			<tr>
@@ -15,4 +15,27 @@
 			<?php endwhile?>
 		</tbody>
 	</table>
+</div>-->
+
+
+
+<div id="kboard-thumbnail-latest">
+	<?php while($content = $list->hasNext()):?>
+		<span class="kboard-list-thumbnail" style="float:left;">
+			<ul style="list-style:none;">
+				<li>
+					<a href="<?php echo $url->set('uid', $content->uid)->set('mod', 'document')->toString()?>&page_id=1683">	
+					<?php if($content->thumbnail_file):?><img src="<?php echo get_site_url() . $content->thumbnail_file?>" style="width:100px;height:100px;" alt=""><?php else:?><?php endif?>			
+					</a>
+				</li>
+				<li style="list-style:none;">
+					<p style="font-size:10px; text-align:center" >
+						<?php 
+						echo $content->title;
+						?>
+					</p>
+				</li>
+			</ul>
+		</span>
+	<?php endwhile?>
 </div>

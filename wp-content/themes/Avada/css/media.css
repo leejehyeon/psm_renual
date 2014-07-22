@@ -1,3 +1,5 @@
+/*여기/
+/*
 @media only screen and (max-width: 1000px){
 	.fullwidth-box{padding-left:12px;padding-right:12px;}
 	.no-csstransforms .sep-boxed-pricing .column {margin-left: 1.5% !important;}
@@ -988,7 +990,8 @@
 
 	/*.title h1,.title h2,.title h3,.title h4,.title h5,.title h6{white-space:normal !important;}
 	.title .title-sep-container{width:20%;}*/
-
+/*여기*/
+/*
 	.content-boxes-icon-boxed .col{height:auto !important;padding-bottom:20px;padding-left:3% !important;padding-right:3% !important;}
 	.content-boxes-icon-on-top .col,.content-boxes-icon-boxed .col{margin-bottom:55px;}
 	.content-boxes-icon-boxed .col .heading h2{margin-top:-5px;}
@@ -1032,6 +1035,8 @@
 	.table-1 tr td{border:0;border-bottom:1px solid #dcdcdc;}
 	.table-1 tr td:last-child{border-bottom:0;}
 */
+/*여기*/
+/*
 	.table-1 { display: block; overflow-x: auto; }
 	.table-1 table { border-collapse: collapse; border-spacing: 0; width: 100%}
 	.table-1 td, .table-1 th { white-space: nowrap; }
@@ -1053,6 +1058,8 @@
 	.table-2 table th{padding:10px 20px;}
 	.table-2 tr td:last-child{border-bottom:0;}
 */
+/*여기*/
+/*
 	.sep-boxed-pricing .column {
 		width: -moz-calc(100% - 18px) !important;
 		width: -webkit-calc(100% - 18px) !important;
@@ -1114,7 +1121,8 @@
 }
 
 /* Portfolio Responsive */
-
+/*여기*/
+/*
 @media only screen and (max-width: 974px){
 	.portfolio-two .portfolio-wrapper {
 		max-width: 470px;
@@ -1153,4 +1161,4 @@
 		max-width: 234px;
 		margin: 0 auto;
 	}
-}
+}*/
